@@ -46,6 +46,8 @@ self.onfetch = function(event){
 	
 	//Make and cache the request
 	if (event.request.url.indexOf(raceUrl) > -1) {
+		event.respondWith(
+            caches.open(CACHE_NAME).then(function(cache) {				  
 		return fetch(event.request)
 			.then(function(res){
 				cache.put(event.request.url, res.clone());
