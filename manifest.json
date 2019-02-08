@@ -13,7 +13,7 @@
 			"type": "image/png"
 		},
 		{
-			"src": "./assets/icons/favicon.ico",
+			"src": "./assets/icons/favicon.ico"
 		},
 		{
 			"src": "./assets/icons/icon-48.png",
