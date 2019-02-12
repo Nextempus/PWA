@@ -13,6 +13,7 @@ const urlsToCache = [
 	'./assets/icons/icon-144.png',
 	'./assets/icons/icon-196.png',
 	'./assets/icons/icon-384.png',
+	'./assets/The Parting Gift.mp4',
 	];
 	
 //Set the callback for the install step
